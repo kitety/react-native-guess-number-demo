@@ -51,7 +51,7 @@ const App = () => {
           style={styles.input}
           value={text}
           onChangeText={setText}></TextInput>
-        <Button title="猜" onPress={doGuess}></Button>
+        <Button title="猜一下" onPress={doGuess}></Button>
       </SafeAreaView>
     </>
   );
